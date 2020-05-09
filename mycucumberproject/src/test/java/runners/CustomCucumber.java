@@ -1,6 +1,5 @@
 package runners;
 
-package com.abca.learn;
 import cucumber.api.CucumberOptions;
 import cucumber.runtime.ClassFinder;
 import cucumber.runtime.Runtime;
