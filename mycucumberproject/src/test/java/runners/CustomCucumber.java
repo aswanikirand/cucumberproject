@@ -72,7 +72,7 @@ public class CustomCucumber extends ParentRunner<FeatureRunner> {
 		// Add tags at runtime
 		addFeatureTag(cucumberFeatures);
 
-		jUnitReporter = new JUnitReporter(runtimeOptions.reporter(classLoader), runtimeOptions.formatter(classLoader), runtimeOptions.isStrict());
+		jUnitReporter = new JUnitReporter(runtimeOptions.reporter(classLoader), runtimeOptions.formatter(classLoader), runtimeOptions.isStrict(), null);
 		addChildren(cucumberFeatures);
 	}
 

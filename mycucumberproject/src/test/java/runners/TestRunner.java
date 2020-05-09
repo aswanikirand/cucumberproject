@@ -5,9 +5,9 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
-@RunWith(Cucumber.class)
+@RunWith(CustomCucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/E2E",glue= {"stepdefinitions"},tags = {"@Smoke"}
+		features = "src/test/resources/E2E",glue= {"stepdefinitions"}
 		)
 
 public class TestRunner {
