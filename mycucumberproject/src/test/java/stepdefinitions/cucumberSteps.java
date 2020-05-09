@@ -27,5 +27,11 @@ public class cucumberSteps {
 	public void enter_username_password(String username, String password) throws Throwable {
 		System.out.println("scenario 1" + username + " and " + password);
 	}
+	
+	@Then("^Signin$")
+	public void signin() throws Throwable {
+	    System.out.println("you are in Sign in page");
+	    
+	}
 
 }
