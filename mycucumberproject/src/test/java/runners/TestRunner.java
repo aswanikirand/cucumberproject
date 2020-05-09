@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
-@RunWith(CustomCucumber.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/resources/E2E",glue= {"stepdefinitions"}
 		)
